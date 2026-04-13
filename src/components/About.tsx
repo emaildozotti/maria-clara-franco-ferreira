@@ -86,7 +86,7 @@ export default function About() {
                   }}
                 >
                   <img
-                    src="https://placehold.co/600x800/1a365d/ffffff?text=Maria+Clara"
+                    src="/foto-maria-clara-sobre.jpg"
                     alt="Maria Clara Franco Ferreira"
                     className="w-full h-full object-cover object-center client-photo"
                     onError={(e) => {

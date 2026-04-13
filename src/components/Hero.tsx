@@ -138,7 +138,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-primary/20 mix-blend-multiply z-10 pointer-events-none" />
 
               <img
-                src="https://placehold.co/800x1000/1a365d/ffffff?text=Maria+Clara"
+                src="/foto-maria-clara.jpg"
                 alt="Maria Clara Franco Ferreira"
                 className="w-full h-full object-cover object-center transition-transform duration-[2s] ease-out hover:scale-105"
                 onError={(e) => {
