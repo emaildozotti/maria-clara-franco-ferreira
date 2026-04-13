@@ -74,7 +74,7 @@ export default function Hero() {
               className="uppercase tracking-[0.3em] text-[10px] md:text-xs font-light"
               style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-accent)' }}
             >
-              Frequência Vibracional
+              Quando algo invisível trava tudo
             </p>
           </FadeIn>
 
@@ -87,15 +87,12 @@ export default function Hero() {
                 color: 'var(--color-bg-light)',
               }}
             >
-              Abaixo de{' '}
-              <span style={{ color: 'var(--color-accent)' }}>350 Hz</span>
-              , a vida trava.
-              <br className="hidden md:block" />{' '}
+              Você faz tudo certo.{' '}
               <span
                 className="italic font-light"
-                style={{ color: 'var(--color-accent)', opacity: 0.9 }}
+                style={{ color: 'var(--color-accent)' }}
               >
-                Eu calibro a sua.
+                E alguma coisa, sempre, te puxa para trás.
               </span>
             </h1>
           </FadeIn>
@@ -106,9 +103,9 @@ export default function Hero() {
               className="max-w-xl text-lg md:text-xl leading-relaxed text-white/70 font-light"
               style={{ fontFamily: 'var(--font-sub)' }}
             >
-              Limpeza de campo via Radiônica para quem sente que algo{' '}
-              <span style={{ color: 'var(--color-accent)', fontStyle: 'italic' }}>invisível</span>{' '}
-              impede a vida de fluir.
+              Relacionamentos que afundam, dinheiro que some, sonhos que travam no último minuto. Não é azar. Tem{' '}
+              <span style={{ color: 'var(--color-accent)', fontStyle: 'italic' }}>algo invisível</span>{' '}
+              no seu caminho, e eu sei exatamente o que é.
             </p>
           </FadeIn>
 
@@ -120,7 +117,7 @@ export default function Hero() {
               whileTap={{ scale: 0.98 }}
               className="btn-shimmer mt-4 lg:mt-8"
             >
-              Quero elevar minha frequência
+              Quero entender o que me prende
             </motion.button>
           </FadeIn>
         </div>

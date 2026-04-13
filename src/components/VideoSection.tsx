@@ -35,24 +35,24 @@ export default function VideoSection() {
         {/* Container de vídeo 9:16 */}
         <FadeIn delay={0.2}>
           <div
-            className="relative mx-auto"
-            style={{ maxWidth: '300px', width: '100%' }}
+            style={{
+              width: '300px',
+              maxWidth: '100%',
+              aspectRatio: '9 / 16',
+              borderRadius: '4px',
+              overflow: 'hidden',
+              border: '1px solid #C5A55A',
+              boxShadow: '0 25px 60px -12px rgba(0, 0, 0, 0.6)',
+              backgroundColor: '#000',
+            }}
           >
-            <div
-              className="relative aspect-[9/16] rounded-sm overflow-hidden ring-1 shadow-2xl"
-              style={{
-                boxShadow: '0 25px 60px -12px rgba(0, 0, 0, 0.6)',
-              }}
-            >
-              <iframe
-                src="https://www.youtube.com/embed/TOGJwI9oAcw"
-                title="VSL Maria Clara Franco Ferreira"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="absolute inset-0 w-full h-full"
-                style={{ border: 'none' }}
-              />
-            </div>
+            <iframe
+              src="https://www.youtube.com/embed/TOGJwI9oAcw"
+              title="VSL Maria Clara Franco Ferreira"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              style={{ width: '100%', height: '100%', border: 'none', display: 'block' }}
+            />
           </div>
         </FadeIn>
 
