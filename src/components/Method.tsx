@@ -77,10 +77,7 @@ export default function Method() {
           {pillars.map((pillar, i) => (
             <FadeIn key={i} delay={i * 0.15} direction="up">
               <div
-                className="relative p-10 h-full transition-colors duration-500 hover:bg-white"
-                style={{
-                  border: '1px solid rgba(13, 27, 62, 0.06)',
-                }}
+                className="card-on-light relative p-10 h-full rounded-sm transition-shadow duration-500 hover:shadow-xl"
               >
                 {/* Numeração decorativa (signature element) */}
                 <span
@@ -123,7 +120,7 @@ export default function Method() {
           >
             <p
               className="text-base md:text-lg leading-relaxed font-light"
-              style={{ color: 'var(--color-text)', opacity: 0.85 }}
+              style={{ color: 'var(--color-text)', opacity: 0.9 }}
             >
               Não prometo milagres. Não substituo tratamento médico. Não atendo terceiros sem autorização. Respeito absoluto ao seu livre-arbítrio. A transformação exige que você esteja presente e comprometida com o processo.
             </p>

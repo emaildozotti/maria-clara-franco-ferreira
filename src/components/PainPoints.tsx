@@ -78,11 +78,7 @@ export default function PainPoints() {
             {pains.map((pain, i) => (
               <FadeIn key={i} delay={i * 0.15} direction="up">
                 <div
-                  className="p-10 h-full flex flex-col justify-between transition-colors duration-500 hover:bg-white"
-                  style={{
-                    border: '1px solid rgba(13, 27, 62, 0.05)',
-                    backgroundColor: 'transparent'
-                  }}
+                  className="card-on-light p-10 h-full flex flex-col justify-between rounded-sm transition-shadow duration-500 hover:shadow-lg"
                 >
                   <span
                     className="font-display text-3xl mb-12 opacity-30"

@@ -14,6 +14,8 @@
   --color-accent: #FFBD59;
   --color-text: #2D1B33;
   --color-accent-blue: #D9A0E8;
+  --color-card: #FFFFFF;
+  --color-text-strong: #1A0A2E;
 
   /* Fontes - Tipografia Editorial */
   --font-display: "Cormorant Garamond", Georgia, serif;
@@ -291,4 +293,19 @@ img {
   letter-spacing: 0.3em;
   text-transform: uppercase;
   opacity: 0.6;
+}
+
+/* ============================================================
+   CARDS ULTRA PREMIUM
+   ============================================================ */
+.card-on-dark {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(203, 108, 230, 0.08);
+  box-shadow: 0 8px 32px rgba(26, 10, 46, 0.12);
+}
+
+.card-on-light {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(203, 108, 230, 0.1);
+  box-shadow: 0 4px 20px rgba(61, 26, 74, 0.07);
 }
