@@ -162,60 +162,62 @@ export default function Hero() {
 
         {/* Coluna da Imagem */}
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
-          <FadeIn delay={0.35} direction="left" className="relative" style={{ maxWidth: '420px', width: '100%' }}>
+          <FadeIn delay={0.35} direction="left" className="relative">
+            <div style={{ maxWidth: '420px', width: '100%', position: 'relative' }}>
 
-            {/* Moldura decorativa offset — elemento premium */}
-            <div
-              className="absolute -top-3 -right-3 -bottom-3 -left-3 pointer-events-none"
-              style={{
-                border: '1px solid rgba(255,189,89,0.18)',
-                borderRadius: '2px',
-              }}
-            />
-
-            <div
-              className="relative overflow-hidden"
-              style={{
-                aspectRatio: '3/4',
-                borderRadius: '2px',
-                border: '1px solid rgba(255,189,89,0.45)',
-                boxShadow: '0 32px 64px -12px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,189,89,0.08)',
-              }}
-            >
-              {/* Overlay sutil escuro — não lavanda */}
+              {/* Moldura decorativa offset — elemento premium */}
               <div
-                className="absolute inset-0 z-10 pointer-events-none"
-                style={{ background: 'linear-gradient(135deg, rgba(61,26,74,0.15) 0%, transparent 50%)' }}
+                className="absolute -top-3 -right-3 -bottom-3 -left-3 pointer-events-none"
+                style={{
+                  border: '1px solid rgba(255,189,89,0.18)',
+                  borderRadius: '2px',
+                }}
               />
 
-              <img
-                src="/foto-maria-clara.jpg"
-                alt="Clara Aguiar"
-                className="w-full h-full object-cover object-center transition-transform duration-[2s] ease-out hover:scale-103"
-              />
-
-              {/* Gradiente inferior — escuro, não lavanda */}
               <div
-                className="absolute bottom-0 left-0 right-0 h-2/5 z-20 pointer-events-none"
-                style={{ background: 'linear-gradient(to top, #3D1A4A 0%, rgba(61,26,74,0.4) 50%, transparent 100%)' }}
-              />
-            </div>
-
-            {/* Badge decorativo — frequência */}
-            <div
-              className="absolute -bottom-4 -left-4 z-30 px-4 py-2"
-              style={{
-                backgroundColor: '#3D1A4A',
-                border: '1px solid rgba(255,189,89,0.4)',
-                boxShadow: '0 8px 24px rgba(0,0,0,0.3)',
-              }}
-            >
-              <p
-                className="text-[10px] uppercase tracking-[0.25em] font-light"
-                style={{ fontFamily: 'var(--font-sans)', color: '#FFBD59' }}
+                className="relative overflow-hidden"
+                style={{
+                  aspectRatio: '3/4',
+                  borderRadius: '2px',
+                  border: '1px solid rgba(255,189,89,0.45)',
+                  boxShadow: '0 32px 64px -12px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,189,89,0.08)',
+                }}
               >
-                350 Hz ✦ Frequencial
-              </p>
+                {/* Overlay sutil escuro — não lavanda */}
+                <div
+                  className="absolute inset-0 z-10 pointer-events-none"
+                  style={{ background: 'linear-gradient(135deg, rgba(61,26,74,0.15) 0%, transparent 50%)' }}
+                />
+
+                <img
+                  src="/foto-maria-clara.jpg"
+                  alt="Clara Aguiar"
+                  className="w-full h-full object-cover object-center transition-transform duration-[2s] ease-out hover:scale-103"
+                />
+
+                {/* Gradiente inferior — escuro, não lavanda */}
+                <div
+                  className="absolute bottom-0 left-0 right-0 h-2/5 z-20 pointer-events-none"
+                  style={{ background: 'linear-gradient(to top, #3D1A4A 0%, rgba(61,26,74,0.4) 50%, transparent 100%)' }}
+                />
+              </div>
+
+              {/* Badge decorativo — frequência */}
+              <div
+                className="absolute -bottom-4 -left-4 z-30 px-4 py-2"
+                style={{
+                  backgroundColor: '#3D1A4A',
+                  border: '1px solid rgba(255,189,89,0.4)',
+                  boxShadow: '0 8px 24px rgba(0,0,0,0.3)',
+                }}
+              >
+                <p
+                  className="text-[10px] uppercase tracking-[0.25em] font-light"
+                  style={{ fontFamily: 'var(--font-sans)', color: '#FFBD59' }}
+                >
+                  350 Hz ✦ Frequencial
+                </p>
+              </div>
             </div>
           </FadeIn>
         </div>
