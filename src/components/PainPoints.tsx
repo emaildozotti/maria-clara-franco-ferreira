@@ -100,11 +100,11 @@ export default function PainPoints() {
             <FadeIn direction="up" delay={0.3}>
               <div className="pl-6 border-l mt-4 md:mt-8 w-full max-w-lg md:col-span-2" style={{ borderColor: 'var(--color-accent)' }}>
                 <p
-                  className="text-xl md:text-2xl leading-relaxed font-light italic"
+                  className="text-xl md:text-2xl leading-relaxed font-normal"
                   style={{
-                    fontFamily: 'var(--font-sub)',
+                    fontFamily: 'var(--font-sans)',
                     color: 'var(--color-text)',
-                    opacity: 0.8
+                    opacity: 0.9
                   }}
                 >
                   O que esses quatro sintomas têm em comum? Nenhum deles é visível. E essa é exatamente a razão pela qual você ainda não conseguiu resolver.

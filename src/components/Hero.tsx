@@ -136,9 +136,9 @@ export default function Hero() {
             <p
               className="max-w-lg leading-relaxed font-light"
               style={{
-                fontFamily: 'var(--font-sub)',
-                fontSize: 'clamp(1.1rem, 2vw, 1.35rem)',
-                color: 'rgba(248,242,247,0.80)',
+                fontFamily: 'var(--font-sans)',
+                fontSize: 'clamp(1.15rem, 2vw, 1.35rem)',
+                color: 'rgba(248,242,247,0.92)',
               }}
             >
               Relacionamentos que afundam, dinheiro que some, sonhos que travam no último minuto. Não é azar. Tem{' '}

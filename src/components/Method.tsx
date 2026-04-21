@@ -131,8 +131,8 @@ export default function Method() {
         <FadeIn delay={0.3}>
           <div className="text-center mt-16">
             <p
-              className="text-xl md:text-2xl italic font-light mb-8"
-              style={{ fontFamily: 'var(--font-sub)', color: 'var(--color-text)', opacity: 0.9 }}
+              className="text-xl md:text-2xl font-normal mb-8"
+              style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-text)', opacity: 0.9 }}
             >
               Por que eu escolhi esse caminho? Porque vivi a transformação primeiro.
             </p>

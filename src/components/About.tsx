@@ -64,8 +64,8 @@ export default function About() {
 
               {/* Credenciais */}
               <p
-                className="text-sm font-light"
-                style={{ color: 'var(--color-text)', opacity: 0.5 }}
+                className="text-base font-light"
+                style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-text)', opacity: 0.75 }}
               >
                 Formação em Serviço Social. Especialização em Radiônica, Chacraterapia e Reprogramação Vibracional. Estudo constante em terapias integrativas e ciência das frequências.
               </p>
@@ -112,8 +112,8 @@ export default function About() {
         <FadeIn delay={0.3}>
           <div className="text-center mt-20">
             <p
-              className="text-xl md:text-2xl italic font-light"
-              style={{ fontFamily: 'var(--font-sub)', color: 'var(--color-text)', opacity: 0.7 }}
+              className="text-xl md:text-2xl font-normal"
+              style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-text)', opacity: 0.9 }}
             >
               E como funciona, na prática, o processo comigo?
             </p>
