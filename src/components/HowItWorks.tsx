@@ -70,7 +70,7 @@ export default function HowItWorks() {
                   <li key={i} className="flex items-start gap-4">
                     <span className="mt-1 text-sm flex-shrink-0" style={{ color: '#FFBD59' }}>✦</span>
                     <p
-                      className="text-lg leading-relaxed"
+                      className="text-xl leading-relaxed"
                       style={{ fontFamily: 'var(--font-sans)', color: '#1A0A2E', fontWeight: 400 }}
                     >
                       {item}
@@ -104,8 +104,8 @@ export default function HowItWorks() {
                   R$ 600
                 </p>
                 <p
-                  className="text-base leading-relaxed"
-                  style={{ fontFamily: 'var(--font-sans)', color: '#2D1B33', opacity: 0.85, fontWeight: 400 }}
+                  className="text-lg leading-relaxed"
+                  style={{ fontFamily: 'var(--font-sans)', color: '#2D1B33', opacity: 0.9, fontWeight: 400 }}
                 >
                   Pode ser feito de forma antecipada ou com um sinal para garantir a vaga. O valor precisa estar totalmente quitado antes da consulta.
                 </p>

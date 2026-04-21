@@ -78,11 +78,11 @@ function FAQItem({ faq, isOpen, onToggle }: {
             style={{ overflow: 'hidden' }}
           >
             <p
-              className="pb-8 pr-12 text-lg leading-relaxed font-light"
+              className="pb-8 pr-12 text-xl leading-relaxed font-light"
               style={{
                 fontFamily: 'var(--font-sans)',
                 color: 'var(--color-text)',
-                opacity: 0.7,
+                opacity: 0.85,
               }}
             >
               {faq.a}
@@ -130,7 +130,7 @@ export default function FAQ() {
                 }}
               >
                 O que você{' '}
-                <span className="italic font-light block mt-2" style={{ color: 'var(--color-accent)' }}>
+                <span className="italic font-light block mt-2" style={{ color: 'var(--color-primary)' }}>
                   precisa saber.
                 </span>
               </h2>

@@ -57,7 +57,7 @@ export default function PainPoints() {
                 }}
               >
                 Você sente que faz tudo certo,{' '}
-                <span className="italic font-light" style={{ color: 'var(--color-accent)' }}>
+                <span className="italic font-light" style={{ color: 'var(--color-primary)' }}>
                   mas a vida simplesmente não anda?
                 </span>
               </h2>
@@ -81,8 +81,8 @@ export default function PainPoints() {
                   className="card-on-light p-10 h-full flex flex-col justify-between rounded-sm transition-shadow duration-500 hover:shadow-lg"
                 >
                   <span
-                    className="font-display text-3xl mb-12 opacity-30"
-                    style={{ color: 'var(--color-accent)' }}
+                    className="font-display text-3xl mb-12"
+                    style={{ color: 'var(--color-accent)', opacity: 0.55 }}
                   >
                     {pain.num}
                   </span>

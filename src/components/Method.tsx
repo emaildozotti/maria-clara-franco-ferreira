@@ -59,7 +59,7 @@ export default function Method() {
               }}
             >
               O que eu faço é tornar o{' '}
-              <span className="italic font-light" style={{ color: 'var(--color-accent)' }}>
+              <span className="italic font-light" style={{ color: 'var(--color-primary)' }}>
                 invisível, visível.
               </span>
             </h2>
@@ -101,7 +101,7 @@ export default function Method() {
                     {pillar.title}
                   </h3>
                   <p
-                    className="text-lg leading-relaxed font-light"
+                    className="text-xl leading-relaxed font-light"
                     style={{ color: 'var(--color-text)', opacity: 0.9 }}
                   >
                     {pillar.text}

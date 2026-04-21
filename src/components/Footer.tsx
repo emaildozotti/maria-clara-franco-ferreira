@@ -98,7 +98,7 @@ export default function Footer() {
                 opacity: 0.5,
               }}
             >
-              Atendimento online e presencial
+              Atendimento online
             </p>
 
             <p

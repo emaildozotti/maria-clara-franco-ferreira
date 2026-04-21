@@ -122,7 +122,7 @@ export default function Hero() {
               <br className="hidden lg:block" />
               <span
                 className="italic font-light"
-                style={{ color: '#FFBD59' }}
+                style={{ color: '#FFBD59', textShadow: '0 2px 12px rgba(61,26,74,0.9), 0 0 30px rgba(255,189,89,0.15)' }}
               >
                 E alguma coisa, sempre,{' '}
                 <br className="hidden lg:block" />
